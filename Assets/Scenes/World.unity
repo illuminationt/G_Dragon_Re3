@@ -198,7 +198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &446447529
 AudioListener:
   m_ObjectHideFlags: 0
@@ -753,7 +753,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1476602624
 GameObject:
@@ -783,7 +783,7 @@ Transform:
   m_Children:
   - {fileID: 1023768323}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1476602626
 MonoBehaviour:
@@ -992,12 +992,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4766931129455044, guid: 13b17cf49d13cf84f85b87ebd0a47ae1, type: 2}
       propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114302536553886302, guid: 13b17cf49d13cf84f85b87ebd0a47ae1,
-        type: 2}
-      propertyPath: m_BattleSceneName
-      value: Battle
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13b17cf49d13cf84f85b87ebd0a47ae1, type: 2}
@@ -1047,7 +1042,7 @@ Prefab:
     - target: {fileID: 224954341149440780, guid: afb7298501bb546da8ecc99fdd6f4081,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224954341149440780, guid: afb7298501bb546da8ecc99fdd6f4081,
         type: 2}
@@ -1164,7 +1159,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4433098018462316, guid: c1e3f2be203bae746bcd8c8ac433d734, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4493253343319436, guid: c1e3f2be203bae746bcd8c8ac433d734, type: 2}
       propertyPath: m_LocalScale.x
