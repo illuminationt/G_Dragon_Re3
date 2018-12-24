@@ -104,6 +104,6 @@ MonoBehaviour:
   m_bossesWorld:
   - {fileID: 1945310741520362, guid: ae7b8d5934af0a34bb60238a88efccfa, type: 2}
   m_item:
-  - {fileID: 1909136809338036, guid: 2f1f17e0bb019f0488f1a01d8618c805, type: 2}
+  - {fileID: 1909136809338036, guid: c4fc2c35137f48048a170cd805de63f8, type: 2}
   m_dragonInitPos:
   - {x: 0, y: 0}

@@ -11,6 +11,7 @@ public class Inventory : SingletonMonoBehaviour<Inventory> {
 
     public List<string> inventory = new List<string>();
 
+
     public Canvas m_canvas;
     public Text[] m_Texts;
     [SerializeField] private GameObject m_icon;

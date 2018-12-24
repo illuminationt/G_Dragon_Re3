@@ -98,7 +98,7 @@ public partial class WorldManager : MonoBehaviour
             {
                 if (item != null)
                 {
-                    Inventory.Instance.inventory.Add(item.name);
+                    Inventory.Instance.inventory.Add(item.Name);
                     Destroy(item.gameObject);
                 }
              }

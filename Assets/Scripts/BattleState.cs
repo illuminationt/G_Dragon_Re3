@@ -217,7 +217,7 @@ public partial class BattleManager : MonoBehaviour
 
         }
 
-        //この中でダメーCジを計算してしまう
+        //この中でダメージを計算してしまう
         private void CalculateDamage(ref Dragon dragon, ref Enemy enemy)
         {
             dragon.IsWinner = enemy.IsWinner = false;
@@ -256,6 +256,25 @@ public partial class BattleManager : MonoBehaviour
                     break;
             }
 
+
+            //IsWinnerが両方ともfalse→アイコ
+            //RuleBreakerを持ってるならそれでもプレイヤーが勝ったこととする
+            if (dragon.IsWinner == false && enemy.IsWinner == false)
+            {
+                if (Inventory.Instance.inventory.Contains("RuleBreaker"))
+                {
+                    dragon.IsWinner = true;
+                    switch (dragon.Action)
+                    {
+                        case Actor.Actions.Gu: enemy.HP -= dragon.AttackGu; break;
+                        case Actor.Actions.Choki: enemy.HP -= dragon.AttackChoki; break;
+                        case Actor.Actions.Par: enemy.HP -= dragon.AttackPar; break;
+                        default:
+                            Debug.LogError("errore");
+                            break;
+                    }
+                }
+            }
         }
 
     }
